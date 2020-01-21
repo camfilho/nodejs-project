@@ -1,0 +1,27 @@
+aside {
+  width: 320px;
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  padding: 30x;
+}
+
+aside strong {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: #333;
+}
+
+aside form {
+  margin-top: 30px;
+}
+
+aside form .input-block label {
+  color: #acacac;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+
+a
