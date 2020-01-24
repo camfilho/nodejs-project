@@ -1,5 +1,6 @@
 main {
-  flex: 1;
+
+  flex: 0 1 100%;
 }
 
 main ul {
@@ -7,6 +8,12 @@ main ul {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   list-style: none;
+}
+
+@media (max-width: 650px) {
+  main ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 li.dev-item {
@@ -33,31 +40,30 @@ li.dev-item header .user-info {
 }
 
 .user-info strong {
-    display: block;
-    font-size: 16px;
-    color: #333;
+  display: block;
+  font-size: 16px;
+  color: #333;
 }
 
-
 .user-info span {
-    font-size: 13px;
-    color: #999;
-    margin-top: 2px;
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
 }
 
 li.dev-item p {
-    color: #666;
-    font-size: 14px;
-    line-height: 20px;
-    margin: 10px 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0;
 }
 
 li.dev-item a {
-    text-decoration: none;
-    color: #8e4dff;
-    font-size: 14px;
+  text-decoration: none;
+  color: #8e4dff;
+  font-size: 14px;
 }
 
 li.dev-item a:hover {
-    color: #5a2ea6;
+  color: #5a2ea6;
 }
